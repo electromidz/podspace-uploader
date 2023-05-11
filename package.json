@@ -1,5 +1,9 @@
 {
   "name": "podspace-uploader",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electromidz/podspace-uploader.git"
+  },
   "version": "0.0.1",
   "description": "This package use for uploading file on PodSpace",
   "private": false,
