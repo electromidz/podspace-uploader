@@ -1,5 +1,5 @@
 {
-  "name": "podspaceUploader",
+  "name": "@total-typescript/podspace-uploader",
   "version": "0.0.1",
   "description": "This package use for uploading file on PodSpace",
   "private": false,
