@@ -18,11 +18,8 @@
     "type": "git",
     "url": "git+https://github.com/electromidz/podspace-uploader.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "author": "Omid Moghadas",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/electromidz/podspace-uploader/issues"
   },
