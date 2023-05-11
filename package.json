@@ -1,0 +1,25 @@
+{
+  "name": "podspace-uploader",
+  "version": "1.0.0",
+  "description": "Uploading data on PodSpace",
+  "main": "lib/index.js",
+  "types":"lib",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electromidz/podspace-uploader.git"
+  },
+  "author": "Omid Moghadas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/electromidz/podspace-uploader/issues"
+  },
+  "homepage": "https://github.com/electromidz/podspace-uploader#readme",
+  "devDependencies": {
+    "@types/node": "^20.1.2",
+    "typescript": "^5.0.4"
+  }
+}
