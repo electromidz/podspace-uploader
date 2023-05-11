@@ -1,0 +1,23 @@
+{
+  "name": "podspace-uploader",
+  "version": "1.0.0",
+  "description": "This package use for uploading file on PodSpace",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electromidz/podspace-uploader.git"
+  },
+  "author": "Omid Moghadas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/electromidz/podspace-uploader/issues"
+  },
+  "homepage": "https://github.com/electromidz/podspace-uploader#readme",
+  "devDependencies": {
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
+}
