@@ -1,3 +1,7 @@
-export function isEven(num: number) {
-  return num % 2 === 0
+
+export class PodSpace {
+  isEven(num: number) {
+    return num % 2 === 0
+  }
 }
+
