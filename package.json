@@ -1,15 +1,17 @@
 {
-  "name": "podspace-uploader",
-  "version": "1.0.0",
+  "name": "@total-typescript/podspace-uploader",
+  "version": "0.0.1",
   "description": "This package use for uploading file on PodSpace",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "dev":"vitest",
-    "test":"vitest run",
+    "dev": "vitest",
+    "test": "vitest run",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
-    "ci": "pnpm run lint && pnpm run test && pnpm run build"
-
+    "ci": "pnpm run lint && pnpm run test && pnpm run build",
+    "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,7 @@
   },
   "homepage": "https://github.com/electromidz/podspace-uploader#readme",
   "devDependencies": {
+    "@changesets/cli": "^2.26.1",
     "tsup": "^6.7.0",
     "typescript": "^5.0.4",
     "vitest": "^0.31.0"
