@@ -1,5 +1,5 @@
 type IisEven = (arg: number) => boolean;
-interface IPodSpace {
+export interface IPodSpace {
     isEven: IisEven;
 }
 export declare class PodSpace implements IPodSpace {

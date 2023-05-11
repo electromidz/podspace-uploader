@@ -1,7 +1,7 @@
 
 type IisEven = (arg: number) => boolean
 
-interface IPodSpace {
+export interface IPodSpace {
   isEven: IisEven
 }
 
