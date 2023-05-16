@@ -3,4 +3,3 @@ src
 .github
 pnpm-lock.yaml
 tsconfig.json
-vire.config.ts
