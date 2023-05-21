@@ -49,15 +49,3 @@ async function fetcheRequest({ url, headers, formData }: IFetchRequest) {
   });
   return await response.json();
 }
-
-async function data() {
-  console.log("starting");
-  const data = await podUploader({
-    user_group_hash: "9L19PCEJLJ1TXW",
-    folder_hash: "V45ODC4VGFROJ32U",
-    access_token: "check",
-  });
-  console.log(data);
-  return data;
-}
-data();
