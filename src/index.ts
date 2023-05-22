@@ -49,3 +49,22 @@ async function fetcheRequest({ url, headers, formData }: IFetchRequest) {
   });
   return await response.json();
 }
+
+export class Uploader {
+  userGroupHash: string;
+  folderHash: string;
+  accessToken: string;
+  constructor(userGroupHash: string, folderHash: string, accessToken: string) {
+    this.userGroupHash = userGroupHash;
+    this.folderHash = folderHash;
+    this.accessToken = accessToken;
+  }
+
+  getData() {
+    return {
+      userGroupHash: this.userGroupHash,
+      folderHash: this.folderHash,
+      accessToken: this.accessToken,
+    };
+  }
+}
