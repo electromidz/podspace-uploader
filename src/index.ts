@@ -1,8 +1,5 @@
-interface IProps {
-  user_group_hash: string;
-  folder_hash?: string;
-  access_token: string;
-}
+import { IProps } from "./types";
+
 export const podUploader = async ({
   user_group_hash,
   folder_hash,
