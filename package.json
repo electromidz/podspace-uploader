@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "vitest",
     "test": "vitest run",
+    "ts": "tsc",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
     "ci": "pnpm run lint && pnpm run test && pnpm run build",

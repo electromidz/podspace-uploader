@@ -2,5 +2,8 @@
 /node_modules
 /.pnp
 .pnp.js
+./github
+./changeset
 node_modules
 dist
+

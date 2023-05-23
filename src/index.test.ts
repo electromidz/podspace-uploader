@@ -4,8 +4,8 @@ import { podUploader } from "./index";
 describe("whatever", () => {
   test("upload", async () => {
     const reult = await podUploader({
-      USER_GROUP_HASH: "sad",
-      FOLDER_HASH: "asd",
+      user_group_hash: "sad",
+      folder_hash: "asd",
       access_token: "asd",
     });
 
