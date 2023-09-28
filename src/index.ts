@@ -1,4 +1,4 @@
-//import { IProps } from "./types";
+import { IProps } from "./types";
 
 export const podUploader = async ({
   user_group_hash,
